@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The contact page of pleasure point hotel website">
+    <!--link to css, bootstrap and fontawesome and font-family-->
+    <link rel="stylesheet" href="/css/contact.css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>restInPeace.com/contact</title>
+</head>
+<body>
+
+        <!--start of header tag-->
+        <header class="container-fluid">
+
+            <!--start of hamburger button on small screen size-->
+            <div class="collapse-btn d-md-none">
+                <span class="collapse-btn__burger"></span>
+            </div>
+            <!--end of burger div on small screen size-->
+            
+            <!--start of logo-->
+            <h1 id="logo"><sup>Rest</sup>in<sub>peace</sub></h1>
+            <!--end of logo-->
+    
+            <!--start of navigation bar-->
+            <nav class="nav">        
+                <ul class="menu-nav">
+                    <li class="menu-nav__item"><a href="/index.html" class="menu-nav__link active" accesskey="h"><i class="fas fa-home d-md-none mr-2"></i>home</a></li>
+                    <li class="menu-nav__item"><a href="/html/reservation.html" class="menu-nav__link" accesskey="r"><i class="fas fa-key d-md-none mr-2"></i>reservations</a></li>
+                    <li class="menu-nav__item"><a href="/html/about.html" class="menu-nav__link" accesskey="a"><i class="fas fa-hotel d-md-none mr-2"></i>about us</a></li>
+                    <li class="menu-nav__item"><a href="#contact" class="menu-nav__link" accesskey="c"><i class="fas fa-phone d-md-none mr-2"></i>contact us</a></li>
+                    <li class="menu-nav__item" id="unique-li"><a href="#contact" id="unique__link" accesskey="b">book now</a></li>
+                </ul>
+            </nav>
+            <!--end of navigation bar-->
+    
+        </header>
+        <!--end of header tag-->
+
+        <!--start of contact section-->
+            <section class="section5 container-fluid" id="contact">
+                <div class="contact-div1 row">
+                        
+                    <div class="container col-lg-6">
+
+                        <div class="head text-capitalize font-weight-bold text-center">get in touch with us</div>
+                
+                        <form id="form" class="form">
+                
+                            <div class="control">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter Your Name Here">
+                                <i class="fas fa-check-circle check"></i>
+                                <i class="fas fa-exclamation-circle exclame"></i>
+                                <small>
+                                    <sup>*</sup>Preferably Your full name
+                                </small>
+                            </div>
+                
+                            <div class="control">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Input Your Email-Address">
+                                <i class="fas fa-check-circle check"></i>
+                                <i class="fas fa-exclamation-circle exclame"></i>
+                                <small>
+                                    <sup>*</sup>To get a quick reply to your message
+                                </small>
+                            </div>
+
+                            <div class="control">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message"></textarea>
+                                <i class="fas fa-check-circle check"></i>
+                                <i class="fas fa-exclamation-circle exclame"></i>
+                                <small>
+                                    <sup>*</sup>Enter Your Message Here
+                                </small>
+                            </div>
+                
+                            <button class="btn btn-outline-primary">submit</button>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-5 container mt-2" id="book">
+                        <div class="head text-capitalize font-weight-bold text-center">get booked with us</div>
+                        <form action="#" class="form">
+                            <div class="control">
+                                <label for="rooms">Rooms :</label> 
+                                <select name="loc" id="loc" class="text-capitalize">
+                                    <option value="hill">the hill-top suite</option>
+                                    <option value="sea">the sea-side suite</option>
+                                    <option value="main">the main suite</option>
+                                    <option value="legend">the legend-side suite</option>
+                                    <option value="master">the master-top suite</option>
+                                    <option value="sea1">the sea-view suite</option>
+                                </select>
+                            </div>
+    
+                            <div class="control">
+                                <label for="dateIn">Check-In :</label>
+                                <input type="date">
+                           </div>
+
+                            <div class="control">
+                                <label for="dateOut">Check-Out :</label>
+                                <input type="date">
+                            </div>
+
+                            <div class="control">
+                                <label for="guest">Guests :</label>
+                                <select name="guest" id="guest" class="text-capitalize">
+                                    <option value="first">1 guest</option>
+                                    <option value="second">2 guests</option>
+                                    <option value="third">3 guests</option>
+                                    <option value="four">4 guests</option>
+                                    <option value="more">5+ guests</option>
+                                </select>
+                            </div>
+
+                            <button class="btn btn-outline-primary">view rate</button>
+    
+                            </form>
+                    </div>
+                </div>
+            </section>
+        <!--end of contact section-->
+
+        <!--start of information section-->
+            <section class="container-fluid info">
+                <div class="container py-3 my-5">
+                    <h5 class="text-capitalize font-weight-bolder">contact details</h5>
+                    <h6>Reach out to us and we are always happy to hear from you</h6><br>
+                    <div class="row">
+                        <div class="col-md-7 col-lg-4 ads d-flex font-weight-bolder">
+                            <i class="fas fa-map-marker-alt fa-2x text-primary mr-3"></i>
+                            <address>
+                                276, Aliganj,Lucknow, Uttar Pradesh, 226201. <br>
+                            </address>
+                        </div>
+                    
+                        <div class="col-md-5 col-lg-4 text-center font-weight-bolder">
+                            <p>+91 737975XXX6</p>
+                            <p>(01)73-277-890</p>
+                        </div>
+                        <div class="col-md-12 col-lg-4 email text-center font-weight-bolder">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <a href="mailto:pathakanuj7521@gmail.com">pathakanuj7521@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!--end of information section-->
+    
+
+          <!--start of footer section-->
+        <section class="section6 bg-dark container-fluid">
+            <div class="footer__div1 py-5 row">
+
+                <div class="text-capitalize div2 col-md-6 col-lg-3">
+                    <ul class="ul1 d-flex">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="/html/reservation.html">reservations</a></li>
+                        <li><a href="/html/about.html">help</a></li>
+                        <li class="d-none d-md-block"><a href="/html/about.html">terms & conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="text-capitalize div2 d-none d-md-block col-md-6 col-lg-3">
+                    <ul class="ul1">
+                        <li><a href="#">for members</a></li>
+                        <li><a href="#">profile</a></li>
+                        <li><a href="#facilities">facilities</a></li>
+                        <li><a href="/html/contact.html">contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="div4 col-lg-6">
+                    <p>Stay up to date with us and get amazing discounts by joining our exclusive newsletter list</p>
+                    <form action="mailto:pathakanuj7521@gmail.com" method="POST">
+                        <div class="d-flex justify-content-center">
+                            <label for="email" class="font-weight-bolder mt-2"> Email:</label>
+                            <input type="email" id="email" placeholder="Enter your email address" class="pl-2" required>
+                            <button class="text-capitalize" data-toggle="modal" data-target="#sign">sign up</button>
+                        </div>
+                    </form>
+                    <div class="my-3 font-div">
+                            <a href="https://twitter.com/RAMANUJPATHAK11" target="_blank" rel="noreferrer"><i class="fab fa-twitter text-white fa-2x"></i></a>
+                            <a href="https://www.facebook.com/ramanuj.pathak.796/" target="_blank" rel="noreferrer"><i class="fab fa-facebook text-white fa-2x mx-5"></i></a>
+                            <a href="https://www.instagram.com/ramanuj.pathak.796/" target="_blank" rel="noreferrer"><i class="fab fa-instagram text-white fa-2x"></i></a>
+                    </div>             
+                </div>
+                
+            </div>
+        </section>
+    <!--end of footer section-->
+
+    <!--link to js and jquery, popper and font awesome-->
+    <script src="/js/index.js"></script>
+    <script src="/js/all.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
